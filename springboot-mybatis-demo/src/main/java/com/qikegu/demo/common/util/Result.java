@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Result implements Serializable {
 	
-	private static final long serialVersionUID = -1802122468331526708L;
+	private static final long serialVersionUID = 1L;
 	private int status = -1;
     private String message = "待处理";
     private Map<String, Object> data = new HashMap<String, Object>();

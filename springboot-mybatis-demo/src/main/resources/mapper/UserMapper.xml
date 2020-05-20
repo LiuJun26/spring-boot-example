@@ -9,7 +9,7 @@
       <arg column="password" javaType="java.lang.String" jdbcType="CHAR" />
       <arg column="role" javaType="java.lang.String" jdbcType="VARCHAR" />
     </constructor>
-  </resultMap>
+  </resultMap>				
   
   <sql id="Base_Column_List">
 	id, nickname, mobile, password, role
